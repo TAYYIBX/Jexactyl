@@ -70,14 +70,14 @@ return [
     'optional' => 'Optional',
     'read_only' => 'Read Only',
     'relation' => 'Relation',
-    'owner' => 'Owner',
+    'owner' => 'Developer',
     'admin' => 'Admin',
     'subuser' => 'Subuser',
     'captcha_invalid' => 'The provided captcha is invalid.',
     'tasks' => 'Tasks',
     'seconds' => 'Seconds',
     'minutes' => 'Minutes',
-    'under_maintenance' => 'Under Maintenance',
+    'under_maintenance' => 'Under Maintenance. Please try again later.',
     'days' => [
         'sun' => 'Sunday',
         'mon' => 'Monday',
@@ -91,5 +91,5 @@ return [
     'enable' => 'Enable',
     'disable' => 'Disable',
     'save' => 'Save',
-    'copyright' => '&copy; 2015 - :year Jexactyl Software',
+    'copyright' => '&copy; 2024 - :year Rary Hosting. All rights reserved.',
 ];
