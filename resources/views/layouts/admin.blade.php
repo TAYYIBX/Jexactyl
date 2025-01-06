@@ -2,16 +2,16 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>{{ config('app.name', 'Jexactyl') }} - @yield('title')</title>
+        <title>{{ config('app.name', 'Rary Hosting') }} - @yield('title')</title>
         <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
         <meta name="_token" content="{{ csrf_token() }}">
 
-        <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
-        <link rel="icon" type="image/png" href="/favicons/favicon-32x32.png" sizes="32x32">
-        <link rel="icon" type="image/png" href="/favicons/favicon-16x16.png" sizes="16x16">
+        <link rel="apple-touch-icon" sizes="180x180" href="https://cdn.discordapp.com/attachments/1319629717439119361/1319629766151766158/tkde_background.png?ex=677c693d&is=677b17bd&hm=6b861d5abaf1d011ca229e8e25961eb01ba0aabbbd556935750f5dee8d00f402&">
+        <link rel="icon" type="image/png" href="https://cdn.discordapp.com/attachments/1319629717439119361/1319629766151766158/tkde_background.png?ex=677c693d&is=677b17bd&hm=6b861d5abaf1d011ca229e8e25961eb01ba0aabbbd556935750f5dee8d00f402&" sizes="32x32">
+        <link rel="icon" type="image/png" href="https://cdn.discordapp.com/attachments/1319629717439119361/1319629766151766158/tkde_background.png?ex=677c693d&is=677b17bd&hm=6b861d5abaf1d011ca229e8e25961eb01ba0aabbbd556935750f5dee8d00f402&" sizes="16x16">
         <link rel="manifest" href="/favicons/manifest.json">
         <link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#bc6e3c">
-        <link rel="shortcut icon" href="/favicons/favicon.ico">
+        <link rel="shortcut icon" href="https://cdn.discordapp.com/attachments/1319629717439119361/1319629766151766158/tkde_background.png?ex=677c693d&is=677b17bd&hm=6b861d5abaf1d011ca229e8e25961eb01ba0aabbbd556935750f5dee8d00f402&">
         <meta name="msapplication-config" content="/favicons/browserconfig.xml">
         <meta name="theme-color" content="#0e4688">
 
@@ -151,7 +151,7 @@
 
                         var that = this;
                         swal({
-                            title: 'Do you want to log out?',
+                            title: 'Are you sure you want to log out?',
                             type: 'warning',
                             showCancelButton: true,
                             confirmButtonColor: '#d9534f',
